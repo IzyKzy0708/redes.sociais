@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&display=swap');
+
+:root {
+    --bg-color:#D0C0A6;
+    --primary-color:
+    --secundary-color:#528DFF;
+    --font: 
+
+
+}
+body {
+    background-color: var(--bg-color);
+    text-align: center;
+}
+
+h1 {
+    color:#825548;
+}
