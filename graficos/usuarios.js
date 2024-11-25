@@ -1,5 +1,5 @@
 async function quantidadeUsuarios() {
-    const url = 'https://raw.githubusercontent.com/teuzsw/graficos-alura/refs/heads/main/dados-globais.json'
+    const url = 'https://raw.githubusercontent.com/IzyKzy0708/redes.sociais/refs/heads/main/redessociais.json'
     const res = await fetch(url)
     const dados = await res.json()
     const nomeDasRedes = Object.keys(dados)

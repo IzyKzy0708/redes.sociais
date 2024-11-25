@@ -1,4 +1,4 @@
-const url = 'https://raw.githubusercontent.com/teuzsw/graficos-alura/refs/heads/main/dados-globais.json'
+const url = 'https://raw.githubusercontent.com/IzyKzy0708/redes.sociais/refs/heads/main/redessociais.json'
 
 async function visualizarInformacoesGlobais() {
         const res = await fetch(url)
@@ -13,4 +13,4 @@ async function visualizarInformacoesGlobais() {
         container.appendChild(paragrafo)
     }
 
-    visualizarInformacoesGlobais()
+visualizarInformacoesGlobais()
